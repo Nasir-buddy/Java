@@ -13,7 +13,7 @@ public class Character_increasing
         {
             for (int j = 0; j <= i; j++)
             {
-                System.out.print((char)(A++));
+                System.out.print((char)(A--));
             }
             {
                 System.out.println();
