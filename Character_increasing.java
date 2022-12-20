@@ -10,10 +10,9 @@ public class Character_increasing
         Scanner s = new Scanner(System.in);
         n = s.nextInt();
         for (int i = 0; i < n; i++) 
-        {
-            for (int j = 0; j <= i; j++)
+        { for (int j = 0; j <= i; j++)
             {
-                System.out.print((char)(A++));
+               System.out.print((char)(A++));
             }
             {
                 System.out.println();
